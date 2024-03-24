@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--        要与接口位置一致-->
+<mapper namespace="com.xmut303.dao.HealthMapper">
+    <update id="modifyHealth" parameterType="com.xmut303.pojo.Health">
+        update health
+        <set>
+        <if test="bloodType != null and bloodType.trim() != ''">
+            blood_type = #{bloodType},
+        </if>
+        <if test="healthStatus != null and healthStatus.trim() != ''">
+            health_status = #{healthStatus},
+        </if>
+        <if test="medicalInsurance != null and medicalInsurance.trim() != ''">
+            medical_insurance = #{medicalInsurance},
+        </if>
+        <if test="chronicContidion != null and chronicContidion.trim() != ''">
+            chronic_condition = #{chronicContidion},
+        </if>
+        <if test="notes != null and notes.trim() != ''">
+            notes = #{notes},
+        </if>
+        </set>
+            <where>health_id = #{id} </where>
+    </update>
+<!--    <update id="modifyHealth">-->
+<!--        update health set health_status = 'baowai' where health_id = #{id}-->
+<!--    </update>-->
+<!--<insert id="addHealth">-->
+<!--    insert into health(person_id) values (#{id})-->
+<!--</insert>-->
+
+</mapper>

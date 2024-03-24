@@ -1,0 +1,17 @@
+0:0:0:0:0:0:0:1 - - [04/May/2023:16:12:21 +0800] "GET / HTTP/1.1" 200 2163 http-bio-8089-exec-1 83
+0:0:0:0:0:0:0:1 - - [04/May/2023:16:12:21 +0800] "GET /css/pages-login-manage.css HTTP/1.1" 304 - http-bio-8089-exec-3 21
+0:0:0:0:0:0:0:1 - - [04/May/2023:16:12:21 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8089-exec-4 2
+0:0:0:0:0:0:0:1 - - [04/May/2023:16:12:26 +0800] "POST /login HTTP/1.1" 302 - http-bio-8089-exec-5 249
+0:0:0:0:0:0:0:1 - - [04/May/2023:16:12:26 +0800] "GET /admin/main.jsp HTTP/1.1" 200 3278 http-bio-8089-exec-6 5
+0:0:0:0:0:0:0:1 - - [04/May/2023:16:12:26 +0800] "GET /css/bootstrap.css HTTP/1.1" 304 - http-bio-8089-exec-7 2
+0:0:0:0:0:0:0:1 - - [04/May/2023:16:12:26 +0800] "GET /css/AdminLTE.css HTTP/1.1" 304 - http-bio-8089-exec-2 2
+0:0:0:0:0:0:0:1 - - [04/May/2023:16:12:26 +0800] "GET /css/_all-skins.min.css HTTP/1.1" 304 - http-bio-8089-exec-8 1
+0:0:0:0:0:0:0:1 - - [04/May/2023:16:12:26 +0800] "GET /person/findTopPerson HTTP/1.1" 200 6351 http-bio-8089-exec-8 41
+0:0:0:0:0:0:0:1 - - [04/May/2023:16:12:26 +0800] "GET /js/my.js HTTP/1.1" 304 - http-bio-8089-exec-3 1
+0:0:0:0:0:0:0:1 - - [04/May/2023:16:12:52 +0800] "GET /record/searchRecords HTTP/1.1" 404 991 http-bio-8089-exec-3 2
+0:0:0:0:0:0:0:1 - - [04/May/2023:16:12:53 +0800] "GET /book/searchBorrowed HTTP/1.1" 404 989 http-bio-8089-exec-3 3
+0:0:0:0:0:0:0:1 - - [04/May/2023:16:12:54 +0800] "GET /book/search HTTP/1.1" 404 973 http-bio-8089-exec-3 3
+0:0:0:0:0:0:0:1 - - [04/May/2023:16:12:55 +0800] "GET /admin/main.jsp HTTP/1.1" 200 3278 http-bio-8089-exec-3 2
+0:0:0:0:0:0:0:1 - - [04/May/2023:16:12:55 +0800] "GET /person/findTopPerson HTTP/1.1" 200 6351 http-bio-8089-exec-3 10
+0:0:0:0:0:0:0:1 - - [04/May/2023:16:12:58 +0800] "GET /book/search HTTP/1.1" 404 973 http-bio-8089-exec-3 1
+0:0:0:0:0:0:0:1 - - [04/May/2023:16:13:00 +0800] "GET /record/searchRecords HTTP/1.1" 404 991 http-bio-8089-exec-3 2
